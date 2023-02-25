@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>newproject</title>
+   <link rel="stylesheet" href="./src/style/style.css">
+
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="navbar">
+            <img src="./src/img/home/nav-brand.svg" alt="" class="navbar-brand">
+            <label class="navbar-search">
+               <i class="fas fa-search navbar-search__icon"></i>
+               <input class="navbar-search__input" type="text">
+            </label>
+            <ul class="navbar-nav">
+               <li class="nav-item"><a href="#" class="nav-link">road series</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">street series</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">mountain series</a></li>
+            </ul>
+            <div class="d-flex align-items-center">
+               <span class="navbar-cart"><i class="fas fa-shopping-cart"></i></span>
+               <div class="burger">
+                  <span></span>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+      <section class="home">
+         <div class="container">
+            <h1 class="home__title">STREETSTER NATHAN</h1>
+            <h2 class="title home__subtitle">Удобный и быстрый <br>
+               Твой идеал для покорения города</h2>
+            <button class="btn home__btn">узнать больше</button>
+         </div>
+      </section>
+      <div class="vector-bg">
+         <section class="category">
+            <div class="container">
+               <h2 class="title category__title">категории</h2>
+               <div class="owl-carousel owl-theme owl-loaded">
+                  <div class="owl-stage-outer">
+                     <div class="owl-stage">
+                        <div class="owl-item">
+                           <div class="wrapper">
+                              <div class="wrapper-1"></div>
+                              <img src="./src/img/category/bg1.png" alt="">
+                           </div>
+                        </div>
+                        <div class="owl-item">
+                           <div class="wrapper wrapper-2">
+                              <img src="./src/img/category/bg2.png" alt="">
+                           </div>
+                        </div>
+                        <div class="owl-item">
+                           <div class="wrapper wrapper-3">
+                              <img src="./src/img/category/bg3.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="owl-nav">
+                     <div class="owl-prev"><i class="fas fa-chevron-left"></i></div>
+                     <div class="owl-next"><i class="fas fa-chevron-right"></i></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="favorites">
+            <div class="container">
+               <h2 class="title favorites__title">Избранные товары</h2>
+               <div class="row">
+                  <div class="col-7 favorites-main">
+                     <div class="wrapper">
+                        <div class="wrapper__title">Streetster Bakerstreet</div>
+                        <div class="wrapper__descr">скорость соединенная с удобством</div>
+                     </div>
+                  </div>
+                  <div class="col-5 favorites-secondary">
+                     <div class="wrapper">Шлем Octane</div>
+                     <div class="wrapper">Защита Canyon</div>
+                     <div class="wrapper">Защита Canyon</div>
+                     <div class="wrapper">Шлем Octane</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+        <section class="text">
+         <div class="text__text">
+            <p class="text__descr">
+               <span class="text__span">STREETSTER</span> – Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               <br> 
+               <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+         </div>
+        </section>
+      </div>
+   </main>
+   <footer class="footer"></footer>
+   <script src="./src/libs/jquery/js/jquery.min.js"></script>
+   <script src="./src/libs/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
+   <script src="./src/js/main.js"></script>
+</body>
+
+</html>
